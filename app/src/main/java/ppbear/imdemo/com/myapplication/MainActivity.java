@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_switch:
                 try {
                     flag = false;
-
+                    flag = false;
                     texture.setDefaultBufferSize(Integer.parseInt(widthEditText.getText().toString()),Integer.parseInt(heightEditText.getText().toString()));
                     //textureView.setSurfaceTextureListener(this);
                     surface = new Surface(texture);
